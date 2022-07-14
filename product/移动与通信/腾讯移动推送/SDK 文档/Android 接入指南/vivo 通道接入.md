@@ -66,12 +66,14 @@ implementation 'com.tencent.tpns:vivo:[VERSION]-release' // vivo  推送 [VERSIO
     </receiver>
     <!-- version 3.0.0.3 -->
     <!-- 该字段大于等于480，则表示支持点击消息直接打开应用activity，优化启动慢问题。 -->
-    <meta-data
-        android:name="sdk_version_vivo"
-        android:value="483" />
-    <meta-data
-        android:name="local_iv"
-        android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI" />
+  	<meta-data
+            android:name="sdk_version_vivo"
+            android:value="483" />
+
+        <meta-data
+            android:name="local_iv"
+          android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI" />
+   
     <!-- version 3.0.0.3 end-->
     <meta-data
         android:name="com.vivo.push.api_key"
